@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Sora:wght@100;200;300;400;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+}
+
+:root {
+  /* font-size  */
+  --cactus-title-font: 1.125rem;
+  --cactus-body-font: 0.875rem;
+  --cactus-small-font: 0.75rem;
+  --cactus-tag-font: 0.625rem;
+
+  /* color */
+  --cactus-purple-color: #883ae1;
+  --cactus-light-purple-color: #e6d6fc;
+  --cactus-off-white-color: #e5eaf0;
+  --cactus-light-white-color: #fafaf9;
+  --cactus-white-color: #ffffff;
+  --cactus-off-black-color: #20293a;
+  --cactus-gray-color: #6c727f;
+}
+
+body {
+  width: 100%;
+  max-width: 1280px;
+  background-color: var(--cactus-light-white-color);
+}
+
+.container-queqtas {
+  max-width: calc(336px + 32px);
+  background: var(--cactus-white-color);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 0 0 0;
+  margin-top: 164px;
+  border-radius: 15px;
+}
+
+.container-queqtas .cactus-sec img {
+  width: 336px;
+  height: 152px;
+  border-radius: 15px;
+}
+
+.container-queqtas .cactus-content {
+  padding: 16px 0px 20px 0px;
+}
+
+.container-queqtas .cactus-content .card-design {
+  background-color: var(--cactus-light-purple-color);
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 15px;
+  color: var(--cactus-purple-color);
+  font-size: 10px;
+  font-weight: 700;
+  margin: 0 16px 16px !important;
+}
+
+.cactus-details {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+  margin-bottom: 20px;
+  padding: 0 16px;
+}
+.cactus-details h2 {
+  font-size: var(--cactus-title-font);
+}
+
+.cactus-details p {
+  font-size: var(--cactus-body-font);
+  color: var(--cactus-gray-color);
+  font-weight: 300;
+}
+
+footer.cactus-foot-sec {
+  border-top: 2px solid #e5eaf0;
+  font-size: var(--cactus-small-font);
+  color: var(--cactus-gray-color);
+  font-weight: 300;
+  padding: 0 16px;
+  padding-top: 16px;
+}
